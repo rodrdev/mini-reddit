@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+p {
+  color: #f74300;
+  margin-left: 20px;
+  display: inline-block;
+}
+.posts {
+  width: 100%;
+  display: inline-block;
+  margin-top: 15px;
+  color: #f74300;
+}
+
+.txtpost {
+  display: inline-block;
+  margin-left: 20px;
+  color: #595959;
+  width: 80%;
+}
+#curtidas {
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+  display: block;
+  background-color: #f9f9f9;
+  border: none;
+  padding: 15px;
+  outline: none;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.icon {
+  margin-top: 4%;
+  float: right;
+  width: 15px;
+  cursor: pointer;
+}
+
+.doll {
+  text-align: center;
+  display: none;
+}
+
+.ops {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #848487;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.msg {
+  margin-top: 30px;
+  color: #848487;
+}
+.doll-img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
